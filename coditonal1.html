@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <h1>example</h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.js"> </script>
+       <script>
+         var mypassword='03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4';
+         var inputpassword=sha256(prompt('password?'));
+         if(inputpassword===mypassword){
+             alert('안녕하세요. 주인님');
+
+        }else{
+           alert('뉘슈?');
+        }
+       </script>
+  </body>
+</html>
